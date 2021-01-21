@@ -5,5 +5,8 @@ Define a function `param_count` that takes a variable number of parameters. The 
 For example, `param_count()` should return `0`, while `param_count(2, 3, 4)` should return `3`.
 
 ```python runnable
-print('Hello World!')
+def param_count(*param):
+    return(len(param))
+    
+param_count(2,3)
 ```
