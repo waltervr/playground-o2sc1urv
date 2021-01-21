@@ -20,7 +20,7 @@ class Car:
     def __str__(self):
         return "The {} car has {} miles.".format(self.color, self.mileage)
     def print_car(self):
-        return "The {} car has {} miles.".format(self.color, self.mileage)
+        print ("The {} car has {} miles.".format(self.color, self.mileage))
 
 blue = Car("blue", "20,000")
 red = Car("red", "30,000")
