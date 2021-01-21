@@ -1,3 +1,31 @@
+# Create a Car class
+
+Create a Car class with two instance attributes:
+
+- Color, which stores the name of the car’s color as a string.
+- Mileage, which stores the number of miles on the car as an integer.
+- Then instantiate two Car objects—a blue car with 20,000 miles and a red car with 30,000 miles—and print out their colors and mileage. 
+
+**Your output should look like this:**
+``` 
+The blue car has 20,000 miles.
+The red car has 30,000 miles.
+```
+
+```python runnable
+class Car:
+    def __init__(self, color, mileage):
+        self.color = color
+        self.mileage = mileage
+    def __str__(self):
+        return "The {} car has {} miles.".format(self.color, self.mileage)
+
+blue = Car("blue", "20,000")
+red = Car("red", "30,000")
+print(blue)
+print(red)
+```
+
 # Counting parameters
 
 Define a function `param_count` that takes a variable number of parameters. The function should return the number of arguments it was called with.
