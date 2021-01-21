@@ -80,7 +80,8 @@ def capital_indexes(word):
             
     return result
 
-print(capital_indexes("HeLlO"))
+result = capital_indexes("HeLlO")
+print(result)
 ```
 
 # Counting syllables
@@ -100,7 +101,7 @@ def count(param):
     x = param.split("-")
     return len(x)
     
-result = count("ter-min-a-tor")
+result = count("ho-tel")
 print(result)
 ```
 
@@ -115,7 +116,8 @@ def up_down(param):
     up = param + 1
     return down, up
 
-print(up_down(5))
+result = up_down(5)
+print(result)
 ```
 
 # Counting parameters
