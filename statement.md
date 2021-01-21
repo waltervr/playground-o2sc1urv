@@ -30,6 +30,25 @@ blue.print_car()
 red.print_car()
 ```
 
+# Create an Animal class
+
+Create an Animal class with one instance attribute and one method:
+
+- The instance attribute will be the *name*, which stores the name of the animal as a string.
+- The method should return the sound of the animal, which returns the following string: "{variable_sound}, I'm {animal_name}! {variable_sound}"
+- Then create two subclasses that inherits from the Animal class, and assign a sound to the instance attribute.
+- Finally, create an instance of each of the subclasses and print the sound of each of them.
+
+**Your output should look like below, considering you have a cow with sound Moooo and name Milky White:**
+``` 
+Moooo I'm Milky White! Moooo
+```
+
+
+```python runnable
+#Code goes here
+```
+
 # Counting parameters
 
 Define a function `param_count` that takes a variable number of parameters. The function should return the number of arguments it was called with.
