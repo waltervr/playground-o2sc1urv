@@ -77,3 +77,22 @@ def param_count(*param):
 result = param_count(2,3)
 print(result)
 ```
+
+# Capital indexes
+Write a function named `capital_indexes`. The function takes a single parameter, which is a string. Your function should return a list of all the indexes in the string that have capital letters.
+
+For example, calling `capital_indexes("HeLlO")` should return the list `[0, 2, 4]`.
+
+```python runnable
+def capital_indexes(word):
+    result = []
+    ind = 0
+    for letter in word:
+        if(letter.isupper()):
+            result.append(ind)
+        ind+=1
+            
+    return result
+
+print(capital_indexes("HeLlO"))
+```
