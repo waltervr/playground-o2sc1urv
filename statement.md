@@ -1,11 +1,9 @@
-# Welcome!
+# Counting parameters!
 
-This Python template lets you get started quickly with a simple one-page playground.
+Define a function param_count that takes a variable number of parameters. The function should return the number of arguments it was called with.
+
+For example, param_count() should return 0, while param_count(2, 3, 4) should return 3.
 
 ```python runnable
 print('Hello World!')
 ```
-
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced Python template](https://tech.io/select-repo/429)
