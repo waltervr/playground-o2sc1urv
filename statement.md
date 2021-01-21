@@ -9,5 +9,5 @@ def param_count(*param):
     return(len(param))
     
 result = param_count(2,3)
-print result
+print(result)
 ```
