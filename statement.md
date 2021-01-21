@@ -64,20 +64,6 @@ milky.speak()
 
 ```
 
-# Counting parameters
-
-Define a function `param_count` that takes a variable number of parameters. The function should return the number of arguments it was called with.
-
-For example, `param_count()` should return `0`, while `param_count(2, 3, 4)` should return `3`.
-
-```python runnable
-def param_count(*param):
-    return(len(param))
-    
-result = param_count(2, 3, 4)
-print(result)
-```
-
 # Capital indexes
 Write a function named `capital_indexes`. The function takes a single parameter, which is a string. Your function should return a list of all the indexes in the string that have capital letters.
 
@@ -108,3 +94,56 @@ Define a function named count that takes a single parameter. The parameter is a 
 Your function should count the number of syllables and return it.
 
 For example, the call `count("ho-tel")` should return 2.
+
+```python runnable
+def count(param):
+    x = param.split("-")
+    return len(x)
+    
+result = count("ter-min-a-tor")
+print(result)
+```
+
+# Up and down
+Define a function named `up_down` that takes a single number as its parameter. Your function return a tuple containing two numbers; the first should be one lower than the parameter, and the second should be one higher.
+
+For example, `calling up_down(5)` should return `(4, 6)`.
+
+```python runnable
+def up_down(param):
+    down = param - 1
+    up = param + 1
+    return down, up
+
+print(up_down(5))
+```
+
+# Counting parameters
+
+Define a function `param_count` that takes a variable number of parameters. The function should return the number of arguments it was called with.
+
+For example, `param_count()` should return `0`, while `param_count(2, 3, 4)` should return `3`.
+
+```python runnable
+def param_count(*param):
+    return(len(param))
+    
+result = param_count(2, 3, 4)
+print(result)
+```
+
+# Thousands separator
+Write a function named `format_number` that takes a non-negative number as its only parameter.
+
+Your function should convert the number to a string and add commas as a thousands separator.
+
+For example, calling `format_number(1000000)` should return `"1,000,000"`.
+
+```python runnable
+def format_number(param):
+    ft = "{:,}"
+    return ft.format(param)
+    
+result = format_number(1000000)
+print(result)
+```
