@@ -26,8 +26,8 @@ blue = Car("blue", "20,000")
 red = Car("red", "30,000")
 print(blue)
 print(red)
-blue.print()
-red.print()
+blue.print_car()
+red.print_car()
 ```
 
 # Counting parameters
