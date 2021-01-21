@@ -74,7 +74,7 @@ For example, `param_count()` should return `0`, while `param_count(2, 3, 4)` sho
 def param_count(*param):
     return(len(param))
     
-result = param_count(2,3)
+result = param_count(2, 3, 4)
 print(result)
 ```
 
@@ -96,3 +96,15 @@ def capital_indexes(word):
 
 print(capital_indexes("HeLlO"))
 ```
+
+# Counting syllables
+Define a function named count that takes a single parameter. The parameter is a string. The string will contain a single word divided into syllables by hyphens, such as these:
+```
+"ho-tel"
+"cat"
+"met-a-phor"
+"ter-min-a-tor"
+```
+Your function should count the number of syllables and return it.
+
+For example, the call `count("ho-tel")` should return 2.
