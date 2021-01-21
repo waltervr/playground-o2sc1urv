@@ -26,8 +26,8 @@ blue = Car("blue", "20,000")
 red = Car("red", "30,000")
 print(blue)
 print(red)
-blue.print_car()
-red.print_car()
+# blue.print_car()
+# red.print_car()
 ```
 
 # Create an Animal class
@@ -101,8 +101,10 @@ def count(param):
     x = param.split("-")
     return len(x)
     
-result = count("ho-tel")
-print(result)
+print(count("ho-tel"))
+print(count("cat"))
+print(count("met-a-phor"))
+print(count("ter-min-a-tor"))
 ```
 
 # Up and down
